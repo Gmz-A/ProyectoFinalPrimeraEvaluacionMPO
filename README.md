@@ -4,10 +4,11 @@
 
 -- REQUISITOS MINIMOS --
   1. Implementar un menu que se ejecute indefinidamente hasta que el usuario finalice (while), que permitirá las siguientes opciones:
-    ### MENÚ ###
-       1- Empezar Cuestionario
-       2- Ranking
-       3- Salir
+     MENÚ
+     1. Empezar Cuestionario
+     2. Ranking
+     3. Salir
+      
   3. Mostrar una serie de preguntas una a una al usuario.
   4. Cada pregunta debe tener:
      * Enunciado de la pregunta.
