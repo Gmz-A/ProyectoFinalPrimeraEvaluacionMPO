@@ -6,9 +6,9 @@
   1. Implementar un menu que se ejecute indefinidamente hasta que el usuario finalice (while), que permitirá las siguientes opciones:
 
      _### MENÚ ###_
-     _1- Empezar Cuestionario_
-     _2- Ranking_
-     _3- Salir_
+       _1- Empezar Cuestionario_
+       _2- Ranking_
+       _3- Salir_
   3. Mostrar una serie de preguntas una a una al usuario.
   4. Cada pregunta debe tener:
      * Enunciado de la pregunta.
