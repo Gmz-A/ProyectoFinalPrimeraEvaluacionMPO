@@ -4,18 +4,19 @@
 
 -- REQUISITOS MINIMOS --
   1. Implementar un menu que se ejecute indefinidamente hasta que el usuario finalice (while), que permitirá las siguientes opciones:
+
      _### MENÚ ###_
      _1- Empezar Cuestionario_
      _2- Ranking_
      _3- Salir_
-  2. Mostrar una serie de preguntas una a una al usuario.
-  3. Cada pregunta debe tener:
+  3. Mostrar una serie de preguntas una a una al usuario.
+  4. Cada pregunta debe tener:
      * Enunciado de la pregunta.
      * Cuatro opciones de respuesta
      * Una única opción correcta
-  4. El usuario debe poder introducir su respuesta (por ejemplo: A, B, C o D).
-  5. El programa debe indicar si la respuesta es correcta o incorrecta.
-  6. Al finalizar el test, debe mostrar:
+  5. El usuario debe poder introducir su respuesta (por ejemplo: A, B, C o D).
+  6. El programa debe indicar si la respuesta es correcta o incorrecta.
+  7. Al finalizar el test, debe mostrar:
      * Número total de preguntas.
      * Número de aciertos.
      * Porcentaje de aciertos.
