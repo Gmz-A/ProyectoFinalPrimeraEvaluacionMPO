@@ -29,6 +29,7 @@ while opcion_menu != 3:
                     respuesta = 0
                     match numero_aleatorio:
                         case 1:
+                            
                             print("""
                             ¿Qué país tiene el mayor número de islas en el mundo?
                                 A) Filipinas
@@ -201,11 +202,10 @@ while opcion_menu != 3:
                     if len(historial_preguntas) == 10:
                         print("Se han acabado las preguntas :)")
                         opcion_preguntas = 2
-                        porcentaje_acierto = ((ranking[0]/ranking[1])*100)
-                        print(f"Has realizado {ranking[0]} preguntas de las cuales has acertado {ranking[1]} por lo qeu tienes un porcentaje de acierto del {porcentaje_acierto}%")
+                        porcentaje_acierto = ((ranking[1]/ranking[0])*100)
+                        print(f"Has realizado {ranking[0]} preguntas de las cuales has acertado {ranking[1]} por lo qeu tienes un porcentaje de acierto del {porcentaje_acierto:.2f}%")
                     else:
-                        opcion_preguntas = int(input("Quiere seguir realizando preguntas (1. Si | 2. No) -> "))
-                        if opcion_preguntas == 1: (ranking[0])+=1
+                        (ranking[0])+=1
                 pass
         case 2: 
             print("ranking")
