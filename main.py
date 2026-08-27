@@ -36,7 +36,7 @@ while opcion_menu != 3:
 
                     if respuesta == pregunta["respuesta_correcta"]:
                         print("Respuesta Correcta, enhorabuena :)")
-                        historial_preguntas.append(1)
+                        historial_preguntas.append(numero_aleatorio)
                         ranking[1] += 1
                     else:
                         print(
@@ -46,12 +46,10 @@ while opcion_menu != 3:
                     pass
                 
                     if len(historial_preguntas) == 10:
-                        print("Se han acabado las preguntas :)")
+                        print("Se han acabado las preguntas :)\n")
                         opcion_preguntas = 2
                         porcentaje_acierto = (ranking[1] / ranking[0]) * 100
-                        print(
-                            f"Has realizado {ranking[0]} preguntas de las cuales has acertado {ranking[1]} por lo qeu tienes un porcentaje de acierto del {porcentaje_acierto:.2f}%"
-                        )
+                        print(f"Has realizado {ranking[0]} preguntas de las cuales has acertado {ranking[1]} por lo qeu tienes un porcentaje de acierto del {porcentaje_acierto:.2f}%")
                     else:
                         ranking[0] += 1
                 pass
@@ -61,6 +59,3 @@ while opcion_menu != 3:
         case 3:
             print("Hasta lueo, muchas gracias :)")
             pass
-
-
-# def preguntas_aleatorias():
