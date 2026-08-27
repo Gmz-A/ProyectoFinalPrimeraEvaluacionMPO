@@ -1,0 +1,52 @@
+{
+    "1": {
+        "pregunta": "¿Qué país tiene el mayor número de islas en el mundo?",
+        "opciones": ["A) Filipinas", "B) Indonesia", "C) Suecia", "D) Canadá"],
+        "respuesta_correcta": "c"
+    },
+    "2": {
+        "pregunta": "¿En qué país se inventó originalmente el cruasán (croissant)?",
+        "opciones": ["A) Francia", "B) Italia", "C) Suiza", "D) Austria"],
+        "respuesta_correcta": "d"
+    },
+    "3": {
+        "pregunta": "¿Cuál es el único mamífero capaz de volar de forma activa (no planear)?",
+        "opciones": ["A) Ardilla voladora", "B) Murciélago", "C) Petauro del azúcar", "D) Lémur volador"],
+        "respuesta_correcta": "b"
+    },
+    "4": {
+        "pregunta": "¿Cuál es el planeta más caliente de nuestro sistema solar?",
+        "opciones": ["A) Mercurio", "B) Júpiter", "C) Marte", "D) Venus"],
+        "respuesta_correcta": "d"
+    },
+    "5": {
+        "pregunta": "¿De qué color es la piel de un oso polar bajo su pelaje?",
+        "opciones": ["A) Blanca", "B) Rosa", "C) Negra", "D) Azulada"],
+        "respuesta_correcta": "c"
+    },
+    "6": {
+        "pregunta": "¿Qué significa la sigla 'HTTP' que vemos al inicio de las direcciones web?",
+        "opciones": ["A) HyperText Transfer Protocol", "B) Hyperlink Transfer Technology Platform", "C) Host To Text Protocol", "D) HyperText Terminal Processor"],
+        "respuesta_correcta": "a"
+    },
+    "7": {
+        "pregunta": "¿Cuál fue la ciudad considerada como la capital del Imperio Inca?",
+        "opciones": ["A) Machu Picchu", "B) Cusco", "C) Quito", "D) Lima"],
+        "respuesta_correcta": "b"
+    },
+    "8": {
+        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "opciones": ["A) Tibia", "B) Húmero", "C) Peroné", "D) Fémur"],
+        "respuesta_correcta": "d"
+    },
+    "9": {
+        "pregunta": "¿Cuántas teclas tiene un piano clásico estándar?",
+        "opciones": ["A) 76", "B) 88", "C) 92", "D) 64"],
+        "respuesta_correcta": "b"
+    },
+    "10": {
+        "pregunta": "¿Quién pintó la famosa obra 'La joven de la perla'?",
+        "opciones": ["A) Johannes Vermeer", "B) Rembrandt", "C) Vincent van Gogh", "D) Leonardo da Vinci"],
+        "respuesta_correcta": "a"
+    }
+}
