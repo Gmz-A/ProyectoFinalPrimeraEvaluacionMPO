@@ -1,52 +1,890 @@
 {
-    "1": {
-        "pregunta": "¿Qué país tiene el mayor número de islas en el mundo?",
-        "opciones": ["A) Filipinas", "B) Indonesia", "C) Suecia", "D) Canadá"],
-        "respuesta_correcta": "c"
-    },
-    "2": {
-        "pregunta": "¿En qué país se inventó originalmente el cruasán (croissant)?",
-        "opciones": ["A) Francia", "B) Italia", "C) Suiza", "D) Austria"],
-        "respuesta_correcta": "d"
-    },
-    "3": {
-        "pregunta": "¿Cuál es el único mamífero capaz de volar de forma activa (no planear)?",
-        "opciones": ["A) Ardilla voladora", "B) Murciélago", "C) Petauro del azúcar", "D) Lémur volador"],
-        "respuesta_correcta": "b"
-    },
-    "4": {
-        "pregunta": "¿Cuál es el planeta más caliente de nuestro sistema solar?",
-        "opciones": ["A) Mercurio", "B) Júpiter", "C) Marte", "D) Venus"],
-        "respuesta_correcta": "d"
-    },
-    "5": {
-        "pregunta": "¿De qué color es la piel de un oso polar bajo su pelaje?",
-        "opciones": ["A) Blanca", "B) Rosa", "C) Negra", "D) Azulada"],
-        "respuesta_correcta": "c"
-    },
-    "6": {
-        "pregunta": "¿Qué significa la sigla 'HTTP' que vemos al inicio de las direcciones web?",
-        "opciones": ["A) HyperText Transfer Protocol", "B) Hyperlink Transfer Technology Platform", "C) Host To Text Protocol", "D) HyperText Terminal Processor"],
-        "respuesta_correcta": "a"
-    },
-    "7": {
-        "pregunta": "¿Cuál fue la ciudad considerada como la capital del Imperio Inca?",
-        "opciones": ["A) Machu Picchu", "B) Cusco", "C) Quito", "D) Lima"],
-        "respuesta_correcta": "b"
-    },
-    "8": {
-        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
-        "opciones": ["A) Tibia", "B) Húmero", "C) Peroné", "D) Fémur"],
-        "respuesta_correcta": "d"
-    },
-    "9": {
-        "pregunta": "¿Cuántas teclas tiene un piano clásico estándar?",
-        "opciones": ["A) 76", "B) 88", "C) 92", "D) 64"],
-        "respuesta_correcta": "b"
-    },
-    "10": {
-        "pregunta": "¿Quién pintó la famosa obra 'La joven de la perla'?",
-        "opciones": ["A) Johannes Vermeer", "B) Rembrandt", "C) Vincent van Gogh", "D) Leonardo da Vinci"],
-        "respuesta_correcta": "a"
-    }
+    "Deporte": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué país ganó la Copa Mundial de la FIFA en 2022?",
+            "opciones": [
+                "A) Francia",
+                "B) Brasil",
+                "C) Argentina",
+                "D) Alemania"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Cuántos jugadores tiene un equipo de balonmano en la cancha?",
+            "opciones": [
+                "A) 5",
+                "B) 7",
+                "C) 9",
+                "D) 11"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 3,
+            "pregunta": "¿En qué país se inventó el pádel?",
+            "opciones": [
+                "A) España",
+                "B) México",
+                "C) Argentina",
+                "D) Estados Unidos"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Dónde se celebraron los Juegos Olímpicos de verano de 2024?",
+            "opciones": [
+                "A) Tokio",
+                "B) Los Ángeles",
+                "C) París",
+                "D) Londres"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Cuál es la duración reglamentaria de un partido de fútbol (sin descuento)?",
+            "opciones": [
+                "A) 80 minutos",
+                "B) 90 minutos",
+                "C) 100 minutos",
+                "D) 120 minutos"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Cuántos puntos se necesitan normalmente para ganar un set en voleibol?",
+            "opciones": [
+                "A) 15",
+                "B) 21",
+                "C) 25",
+                "D) 30"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 7,
+            "pregunta": "¿A qué altura está la canasta en el baloncesto profesional?",
+            "opciones": [
+                "A) 3.05 metros",
+                "B) 2.95 metros",
+                "C) 3.15 metros",
+                "D) 3.00 metros"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Cuál es el país de origen del judo?",
+            "opciones": [
+                "A) China",
+                "B) Corea del Sur",
+                "C) Tailandia",
+                "D) Japón"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Cuál es la distancia oficial de una maratón?",
+            "opciones": [
+                "A) 40 km",
+                "B) 42.195 km",
+                "C) 45 km",
+                "D) 50 km"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué nadador tiene el récord de más medallas olímpicas de oro?",
+            "opciones": [
+                "A) Mark Spitz",
+                "B) Ian Thorpe",
+                "C) Michael Phelps",
+                "D) Caeleb Dressel"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 11,
+            "pregunta": "¿A qué deporte pertenece la selección conocida como los 'All Blacks'?",
+            "opciones": [
+                "A) Rugby",
+                "B) Fútbol",
+                "C) Críquet",
+                "D) Baloncesto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 12,
+            "pregunta": "¿En qué deporte se compite por ganar la Super Bowl?",
+            "opciones": [
+                "A) Béisbol",
+                "B) Baloncesto",
+                "C) Fútbol Americano",
+                "D) Hockey sobre hielo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Qué país albergó el primer Mundial de Fútbol en 1930?",
+            "opciones": [
+                "A) Italia",
+                "B) Brasil",
+                "C) Uruguay",
+                "D) Argentina"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 14,
+            "pregunta": "¿De qué color es el maillot que identifica al líder del Tour de Francia?",
+            "opciones": [
+                "A) Rojo",
+                "B) Verde",
+                "C) Amarillo",
+                "D) Blanco"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Quién es considerado el 'Rey de la tierra batida' en tenis?",
+            "opciones": [
+                "A) Roger Federer",
+                "B) Novak Djokovic",
+                "C) Rafael Nadal",
+                "D) Carlos Alcaraz"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 16,
+            "pregunta": "¿Cuántos puntos vale un tiro libre en baloncesto?",
+            "opciones": [
+                "A) 1",
+                "B) 2",
+                "C) 3",
+                "D) 4"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 17,
+            "pregunta": "¿En qué país se juega el torneo de tenis de Wimbledon?",
+            "opciones": [
+                "A) Francia",
+                "B) Estados Unidos",
+                "C) Reino Unido",
+                "D) Australia"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 18,
+            "pregunta": "¿Cuánto dura un asalto (round) en el boxeo profesional masculino?",
+            "opciones": [
+                "A) 2 minutos",
+                "B) 3 minutos",
+                "C) 4 minutos",
+                "D) 5 minutos"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Qué estilo de natación es generalmente el más rápido?",
+            "opciones": [
+                "A) Braza",
+                "B) Espalda",
+                "C) Mariposa",
+                "D) Crol (Estilo libre)"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Qué atleta tiene el récord mundial de los 100 metros lisos con 9.58 segundos?",
+            "opciones": [
+                "A) Usain Bolt",
+                "B) Tyson Gay",
+                "C) Yohan Blake",
+                "D) Asafa Powell"
+            ],
+            "respuesta_correcta": "a"
+        }
+    ],
+    "Ciencia": [
+        {
+            "id": 21,
+            "pregunta": "¿Qué sustancia química tiene la fórmula H2O?",
+            "opciones": [
+                "A) Oxígeno",
+                "B) Agua",
+                "C) Hidrógeno",
+                "D) Sal"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 22,
+            "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+            "opciones": [
+                "A) Venus",
+                "B) Mercurio",
+                "C) Tierra",
+                "D) Marte"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 23,
+            "pregunta": "¿Cuál es la velocidad aproximada de la luz en el vacío?",
+            "opciones": [
+                "A) 300.000 km/s",
+                "B) 150.000 km/s",
+                "C) 1.000.000 km/s",
+                "D) 343 m/s"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 24,
+            "pregunta": "¿Cuál es el símbolo químico del oro?",
+            "opciones": [
+                "A) Ag",
+                "B) Au",
+                "C) Or",
+                "D) O"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 25,
+            "pregunta": "¿Cómo se llama el centro de un átomo?",
+            "opciones": [
+                "A) Electrón",
+                "B) Protón",
+                "C) Núcleo",
+                "D) Neutrón"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 26,
+            "pregunta": "¿Quién propuso la teoría de la relatividad general?",
+            "opciones": [
+                "A) Isaac Newton",
+                "B) Nikola Tesla",
+                "C) Galileo Galilei",
+                "D) Albert Einstein"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 27,
+            "pregunta": "¿Quién descubrió la penicilina?",
+            "opciones": [
+                "A) Alexander Fleming",
+                "B) Louis Pasteur",
+                "C) Marie Curie",
+                "D) Robert Koch"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 28,
+            "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "opciones": [
+                "A) Húmero",
+                "B) Tibia",
+                "C) Fémur",
+                "D) Peroné"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 29,
+            "pregunta": "¿Qué proceso usan las plantas para fabricar su propio alimento?",
+            "opciones": [
+                "A) Respiración",
+                "B) Fotosíntesis",
+                "C) Digestión",
+                "D) Transpiración"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 30,
+            "pregunta": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+            "opciones": [
+                "A) Oxígeno",
+                "B) Dióxido de carbono",
+                "C) Nitrógeno",
+                "D) Hidrógeno"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 31,
+            "pregunta": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+            "opciones": [
+                "A) Saturno",
+                "B) Júpiter",
+                "C) Urano",
+                "D) Neptuno"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 32,
+            "pregunta": "¿Qué forma tiene el ADN humano?",
+            "opciones": [
+                "A) Hélice simple",
+                "B) Doble hélice",
+                "C) Triple hélice",
+                "D) Cuádruple hélice"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 33,
+            "pregunta": "¿Cómo se llama la célula reproductiva femenina?",
+            "opciones": [
+                "A) Espermatozoide",
+                "B) Óvulo",
+                "C) Cigoto",
+                "D) Embrión"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 34,
+            "pregunta": "¿Cuál es el mineral natural más duro conocido?",
+            "opciones": [
+                "A) Oro",
+                "B) Hierro",
+                "C) Diamante",
+                "D) Cuarzo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 35,
+            "pregunta": "¿Qué órgano del cuerpo humano bombea la sangre?",
+            "opciones": [
+                "A) Pulmón",
+                "B) Hígado",
+                "C) Cerebro",
+                "D) Corazón"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 36,
+            "pregunta": "¿A qué temperatura hierve el agua a nivel del mar?",
+            "opciones": [
+                "A) 50 ºC",
+                "B) 90 ºC",
+                "C) 100 ºC",
+                "D) 120 ºC"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 37,
+            "pregunta": "¿Qué rama de la ciencia estudia los fósiles?",
+            "opciones": [
+                "A) Arqueología",
+                "B) Paleontología",
+                "C) Biología",
+                "D) Geología"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 38,
+            "pregunta": "¿Qué instrumento se utiliza para medir la presión atmosférica?",
+            "opciones": [
+                "A) Termómetro",
+                "B) Barómetro",
+                "C) Higrómetro",
+                "D) Anemómetro"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 39,
+            "pregunta": "¿Quién escribió 'El origen de las especies' proponiendo la evolución por selección natural?",
+            "opciones": [
+                "A) Charles Darwin",
+                "B) Gregor Mendel",
+                "C) Jean-Baptiste Lamarck",
+                "D) Carl Linneo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 40,
+            "pregunta": "¿Qué órgano produce principalmente la insulina en el cuerpo humano?",
+            "opciones": [
+                "A) Hígado",
+                "B) Riñón",
+                "C) Páncreas",
+                "D) Estómago"
+            ],
+            "respuesta_correcta": "c"
+        }
+    ],
+    "Arte": [
+        {
+            "id": 41,
+            "pregunta": "¿Quién pintó la famosa obra 'La Gioconda' (Mona Lisa)?",
+            "opciones": [
+                "A) Miguel Ángel",
+                "B) Vincent van Gogh",
+                "C) Leonardo da Vinci",
+                "D) Pablo Picasso"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 42,
+            "pregunta": "¿Quién es el autor del famoso mural 'Guernica'?",
+            "opciones": [
+                "A) Pablo Picasso",
+                "B) Salvador Dalí",
+                "C) Joan Miró",
+                "D) Diego Velázquez"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 43,
+            "pregunta": "¿Quién pintó los frescos de la bóveda de la Capilla Sixtina?",
+            "opciones": [
+                "A) Rafael",
+                "B) Miguel Ángel",
+                "C) Donatello",
+                "D) Tiziano"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 44,
+            "pregunta": "¿Qué artista postimpresionista pintó 'La noche estrellada'?",
+            "opciones": [
+                "A) Claude Monet",
+                "B) Paul Cézanne",
+                "C) Edgar Degas",
+                "D) Vincent van Gogh"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 45,
+            "pregunta": "¿Qué le falta a la famosa escultura griega conocida como la Venus de Milo?",
+            "opciones": [
+                "A) Los brazos",
+                "B) La cabeza",
+                "C) Las piernas",
+                "D) La nariz"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 46,
+            "pregunta": "¿De qué pintor noruego es la icónica obra 'El grito'?",
+            "opciones": [
+                "A) Gustav Klimt",
+                "B) Egon Schiele",
+                "C) Edvard Munch",
+                "D) Piet Mondrian"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 47,
+            "pregunta": "¿Qué artista surrealista pintó 'La persistencia de la memoria' (los relojes blandos)?",
+            "opciones": [
+                "A) René Magritte",
+                "B) Salvador Dalí",
+                "C) Max Ernst",
+                "D) Marc Chagall"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 48,
+            "pregunta": "¿En qué país surgió el movimiento artístico del Impresionismo?",
+            "opciones": [
+                "A) Italia",
+                "B) España",
+                "C) Inglaterra",
+                "D) Francia"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 49,
+            "pregunta": "¿Quién pintó 'La joven de la perla'?",
+            "opciones": [
+                "A) Johannes Vermeer",
+                "B) Rembrandt",
+                "C) Peter Paul Rubens",
+                "D) Francisco de Goya"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 50,
+            "pregunta": "¿De quién es la obra 'El nacimiento de Venus' del Renacimiento?",
+            "opciones": [
+                "A) Masaccio",
+                "B) Tintoretto",
+                "C) Sandro Botticelli",
+                "D) Caravaggio"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 51,
+            "pregunta": "¿Qué escultor francés es el autor de 'El pensador'?",
+            "opciones": [
+                "A) Camille Claudel",
+                "B) Auguste Rodin",
+                "C) Jean-Antoine Houdon",
+                "D) Edgar Degas"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 52,
+            "pregunta": "¿Qué estilo arquitectónico se caracteriza por el uso de arbotantes y grandes vidrieras?",
+            "opciones": [
+                "A) Gótico",
+                "B) Románico",
+                "C) Barroco",
+                "D) Neoclásico"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 53,
+            "pregunta": "¿Quién pintó la famosa serie de 'Los nenúfares'?",
+            "opciones": [
+                "A) Édouard Manet",
+                "B) Pierre-Auguste Renoir",
+                "C) Paul Gauguin",
+                "D) Claude Monet"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 54,
+            "pregunta": "¿Quién es el autor de 'Las Meninas'?",
+            "opciones": [
+                "A) Francisco de Goya",
+                "B) El Greco",
+                "C) Diego Velázquez",
+                "D) Bartolomé Esteban Murillo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 55,
+            "pregunta": "¿Qué artista mexicana pintó 'Las dos Fridas'?",
+            "opciones": [
+                "A) Leonora Carrington",
+                "B) Frida Kahlo",
+                "C) Remedios Varo",
+                "D) María Izquierdo"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 56,
+            "pregunta": "¿Qué artista es famoso por sus pinturas de latas de sopa Campbell?",
+            "opciones": [
+                "A) Andy Warhol",
+                "B) Roy Lichtenstein",
+                "C) Keith Haring",
+                "D) Jean-Michel Basquiat"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 57,
+            "pregunta": "¿En qué museo de París se encuentra actualmente 'La Gioconda'?",
+            "opciones": [
+                "A) Museo de Orsay",
+                "B) Centro Pompidou",
+                "C) Museo de la Orangerie",
+                "D) Museo del Louvre"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 58,
+            "pregunta": "¿Cuál era el nombre de pila del pintor Rembrandt?",
+            "opciones": [
+                "A) Jan",
+                "B) Johannes",
+                "C) Rembrandt",
+                "D) Pieter"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 59,
+            "pregunta": "¿Qué movimiento vanguardista descompone los objetos en formas geométricas?",
+            "opciones": [
+                "A) Cubismo",
+                "B) Fauvismo",
+                "C) Expresionismo",
+                "D) Dadaísmo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 60,
+            "pregunta": "¿Quién fue el arquitecto principal de la Sagrada Familia en Barcelona?",
+            "opciones": [
+                "A) Lluís Domènech i Montaner",
+                "B) Antoni Gaudí",
+                "C) Josep Puig i Cadafalch",
+                "D) Santiago Calatrava"
+            ],
+            "respuesta_correcta": "b"
+        }
+    ],
+    "Territorio": [
+        {
+            "id": 61,
+            "pregunta": "¿Qué país tiene el mayor número de islas en el mundo?",
+            "opciones": [
+                "A) Filipinas",
+                "B) Indonesia",
+                "C) Suecia",
+                "D) Canadá"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 62,
+            "pregunta": "¿Cuál es el continente más grande del mundo?",
+            "opciones": [
+                "A) Asia",
+                "B) África",
+                "C) América",
+                "D) Europa"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 63,
+            "pregunta": "¿Cuál es considerado el río más caudaloso y largo del mundo?",
+            "opciones": [
+                "A) Nilo",
+                "B) Yangtsé",
+                "C) Amazonas",
+                "D) Misisipi"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 64,
+            "pregunta": "¿Cuál es la capital de Australia?",
+            "opciones": [
+                "A) Sídney",
+                "B) Canberra",
+                "C) Melbourne",
+                "D) Brisbane"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 65,
+            "pregunta": "¿Cuál es el país más pequeño del mundo?",
+            "opciones": [
+                "A) Ciudad del Vaticano",
+                "B) Mónaco",
+                "C) Nauru",
+                "D) San Marino"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 66,
+            "pregunta": "¿En qué cordillera se encuentra el Monte Everest?",
+            "opciones": [
+                "A) Los Andes",
+                "B) Los Alpes",
+                "C) Las Montañas Rocosas",
+                "D) El Himalaya"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 67,
+            "pregunta": "¿Cuál es el desierto más grande del mundo (incluyendo los fríos)?",
+            "opciones": [
+                "A) El Sahara",
+                "B) La Antártida",
+                "C) Gobi",
+                "D) Kalahari"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 68,
+            "pregunta": "¿Qué río atraviesa la ciudad de Londres?",
+            "opciones": [
+                "A) Sena",
+                "B) Danubio",
+                "C) Támesis",
+                "D) Rin"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 69,
+            "pregunta": "¿Cuál es la capital de Canadá?",
+            "opciones": [
+                "A) Ottawa",
+                "B) Toronto",
+                "C) Vancouver",
+                "D) Montreal"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 70,
+            "pregunta": "¿Cuál es el océano que baña la costa este de los Estados Unidos?",
+            "opciones": [
+                "A) Pacífico",
+                "B) Índico",
+                "C) Atlántico",
+                "D) Ártico"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 71,
+            "pregunta": "¿Qué país no tiene frontera con España?",
+            "opciones": [
+                "A) Francia",
+                "B) Portugal",
+                "C) Andorra",
+                "D) Italia"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 72,
+            "pregunta": "¿Cuál es la capital de Japón?",
+            "opciones": [
+                "A) Kioto",
+                "B) Tokio",
+                "C) Osaka",
+                "D) Hiroshima"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 73,
+            "pregunta": "¿Qué país europeo tiene forma de bota?",
+            "opciones": [
+                "A) Grecia",
+                "B) Portugal",
+                "C) Italia",
+                "D) Croacia"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 74,
+            "pregunta": "¿Cuál es la cordillera más larga de América del Sur?",
+            "opciones": [
+                "A) Montañas Rocosas",
+                "B) Apalaches",
+                "C) Macizo Guayanés",
+                "D) Los Andes"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 75,
+            "pregunta": "¿En qué país africano se encuentran las pirámides de Guiza?",
+            "opciones": [
+                "A) Egipto",
+                "B) Marruecos",
+                "C) Sudáfrica",
+                "D) Kenia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 76,
+            "pregunta": "¿Cuál es la isla más grande del mundo (que no es continente)?",
+            "opciones": [
+                "A) Madagascar",
+                "B) Groenlandia",
+                "C) Nueva Guinea",
+                "D) Gran Bretaña"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "id": 77,
+            "pregunta": "¿Cuántos estados conforman los Estados Unidos de América?",
+            "opciones": [
+                "A) 48",
+                "B) 49",
+                "C) 50",
+                "D) 51"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "id": 78,
+            "pregunta": "¿Qué estrecho separa Europa de África?",
+            "opciones": [
+                "A) Estrecho de Gibraltar",
+                "B) Estrecho de Magallanes",
+                "C) Estrecho de Ormuz",
+                "D) Canal de la Mancha"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "id": 79,
+            "pregunta": "¿Cuál es el país con más superficie terrestre del mundo?",
+            "opciones": [
+                "A) China",
+                "B) Canadá",
+                "C) Estados Unidos",
+                "D) Rusia"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "id": 80,
+            "pregunta": "¿En qué país se encuentra la antigua ciudad inca de Machu Picchu?",
+            "opciones": [
+                "A) Colombia",
+                "B) Perú",
+                "C) Chile",
+                "D) Bolivia"
+            ],
+            "respuesta_correcta": "b"
+        }
+    ]
 }

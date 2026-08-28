@@ -1,3 +1,4 @@
+[[Proyectos MPO]]
 -- OPBJETIVOS DEL PROYECTO --
   Desarrollar una aplicación de consola en Python que permita realizar cuestionarios tipo test.
   El usuario podrá responder a una serie de preguntas, y el programa corregirá automáticamente las respuestas, mostrando la puntuación obtenida al finalizar.
